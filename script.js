@@ -69,9 +69,9 @@ function calculate() {
 }
 // reset
 function handleReset() {
-  inputEl.value = 0.0;
+  inputEl.value = "";
   validateBill();
   btnEl[2].click();
-  peopleEl.value = 1;
+  peopleEl.value = "";
   setPeopleValue();
 }
