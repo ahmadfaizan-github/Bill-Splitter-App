@@ -8,7 +8,7 @@ const peopleEl = document.querySelector("#people");
 const totalVal = document.querySelectorAll(".tipValue");
 const resetEl = document.querySelector(".reset");
 let billVal = 0;
-let peopleVal = 1;
+let peopleVal = 0;
 let tipVal = 0.15;
 inputEl.addEventListener("input", validateBill);
 peopleEl.addEventListener("input", setPeopleValue);
