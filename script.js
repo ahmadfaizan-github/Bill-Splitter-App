@@ -35,6 +35,7 @@ function validateBill() {
     inputEl.value.replace(",", ".");
   }
   billVal = parseFloat(inputEl.value);
+//   billVal = 0;
   calculate();
 }
 // tip custom value
@@ -69,9 +70,9 @@ function calculate() {
 }
 // reset
 function handleReset() {
-  inputEl.value = "";
+  inputEl.value = 0.0;
   validateBill();
   btnEl[2].click();
-  peopleEl.value = "";
+  peopleEl.value = 1;
   setPeopleValue();
 }
